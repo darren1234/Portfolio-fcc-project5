@@ -57,3 +57,27 @@ div {
     background-color: coral;
     height: 200px;
 }
+
+#project-container {
+    display: flex;
+    flex-direction: row;
+    background-color: blue;
+    width: 100%;
+}
+
+#project-tile {
+    width: 200px;
+    height: auto;
+}
+
+img{
+    background-color: bisque;
+    display: flex;
+    flex-direction: row;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    align-items: center;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
