@@ -58,26 +58,29 @@ div {
     height: 200px;
 }
 
-#project-container {
-    display: flex;
-    flex-direction: row;
-    background-color: blue;
-    width: 100%;
-}
-
-#project-tile {
-    width: 200px;
-    height: auto;
-}
-
-img{
+.project-tile{
+    width: 20%;
     background-color: bisque;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     border-color: black;
     border-width: 2px;
     border-style: solid;
     border-radius: 5px;
     align-items: center;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.project-tile div{
+    text-align: center;
+}
+
+.project-tile a{
+    text-decoration-line: none;
+    color: black;
+    font-weight: bold;
+}
+
+.project-tile img {
+    width: 100%;
 }
