@@ -3,19 +3,31 @@ body {
     padding: 0;
 }
 
+/*
 #nav-container {
     position: fixed;
     top: 0;
     width: 100%;
     background-color: goldenrod;
+}*/
+
+nav {
+    display: block;
+    position: fixed;
+    top: 0;
 }
 
 #navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    height: 50px;
     display: flex;
     justify-content: space-around;
-    width: 40%;
-    margin-left: 60%;
+    width: 100%;
     list-style: none;    
+    background-color: goldenrod;
 }
 
 h1::before {
@@ -41,10 +53,11 @@ div {
 
 #container {
     text-align: center;
+    padding-top: 50px;
 }
 
 #welcome-section {
-    margin-top: 100px;
+    margin-top: 0px;
     background-color: goldenrod;
     height: 100vh;
 }
